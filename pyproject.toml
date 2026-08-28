@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "escaping-samsara-computations"
+version = "1.0.0"
+description = "Computational supplement for Escaping Samsara: Fixability in Totally Asynchronous Cellular Automata"
+requires-python = ">=3.10"
+dependencies = ["numpy>=2.0,<3", "scipy>=1.13,<2"]
+
+[tool.setuptools.packages.find]
+include = ["escaping_samsara*"]
